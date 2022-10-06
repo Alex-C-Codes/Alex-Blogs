@@ -98,3 +98,7 @@ p, ul, h1, h2, h3, h4, h5 {
     list-style-type:disc;
     padding: 35px;
 }
+
+.divCards {
+    width: 80%;
+}
