@@ -69,7 +69,7 @@ a.nostyle:visited {
 
 /* Main body of content */
 
-p, ul, h1, h2, h3, h4, h5 {
+.standardPadding, p, ul, h1, h2, h3, h4, h5 {
     padding: 1%;
     padding-left: 15%;
     padding-right: 15%;
@@ -101,4 +101,14 @@ p, ul, h1, h2, h3, h4, h5 {
 
 .divCards {
     width: 80%;
+}
+
+/* Column Creation */
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+    width: 50%;
 }
