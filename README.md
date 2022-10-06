@@ -1,4 +1,4 @@
-# Alex C Blogs
+# Alex Blogs
 
 Header Updates:
 [x] Build header section with 'Reprobate Journals' at top
