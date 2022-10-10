@@ -1,3 +1,4 @@
+/*
 $("#checkbox-container :checkbox").on("change", function(){
     alert("The checkbox with the ID '" + this.id + "' changed");
 });
@@ -20,7 +21,7 @@ $checkboxes.on("change", function(){
   localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
 });
 
-var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues');
+var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues'));
 if (checkboxValues === null){
   checkboxValues = {};
 }
@@ -28,3 +29,4 @@ if (checkboxValues === null){
 $.each(checkboxValues, function(key, value) {
   $("#" + key).prop('checked', value);
 });
+*/
