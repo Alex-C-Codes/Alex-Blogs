@@ -49,22 +49,10 @@
     transform: translateY(-50%);
 }
 
-.anchor-header {
+.anchor-noDecorations {
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-}
-
-a.nostyle:link {
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
-}
-
-a.nostyle:visited {
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
 }
 
 /* Main body of content */
